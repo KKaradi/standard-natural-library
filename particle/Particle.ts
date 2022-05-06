@@ -1,5 +1,5 @@
-import module from "p5";
-
+import p5 from "p5";
+import * as p5Global from "p5/global";
 class Domain {
   interval: [number, number][];
   constructor(interval: [number, number][]) {
